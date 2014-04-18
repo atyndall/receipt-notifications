@@ -8,14 +8,14 @@ Have you ever wanted to output your emails, Facebook notifications and friend's 
 I know I have, that's why I've created this awfully hacky set of Python scripts to allow for just that.
 
 Basic configuration steps:
-1. Install necessary Python libraries
-2. Copy configuration from config.example.py to config.py and fill it out
-3. Copy contents of 'talkatme' to a remote webserver that can run Python CGI scripts
-4. Configure receipt printer over parallel or USB to parallel with the Windows "Generic / Text Only" driver 
-5. Name the configured printer "ReceiptPrinter"
-6. (if you're not on Windows, hack printer.py so that it writes to the Linux /dev/lp0 or /dev/usb/lp0 file)
-7. ????
-8. Profit!
+ 1. Install necessary Python libraries
+ 2. Copy configuration from config.example.py to config.py and fill it out
+ 3. Copy contents of 'talkatme' to a remote webserver that can run Python CGI scripts
+ 4. Configure receipt printer over parallel or USB to parallel with the Windows "Generic / Text Only" driver 
+ 5. Name the configured printer "ReceiptPrinter"
+ 6. (if you're not on Windows, hack printer.py so that it writes to the Linux /dev/lp0 or /dev/usb/lp0 file)
+ 7. ????
+ 8. Profit!
 
 ![Message output](https://github.com/atyndall/receipt-notifications/raw/master/talkatme/talk1.jpg)
 
